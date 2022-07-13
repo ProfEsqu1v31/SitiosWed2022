@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background-color: rgba(42, 30, 75, 0.616) ;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px; 
+    border: 2px solid aliceblue;
+   
+    text-align: center;
+    margin-top: 20px;
+    font-family:'Tiro Telugu', serif;
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    min-height: 100px;
+    max-height: 200px; 
+    max-width: 100%;
+}
+#boton{
+    padding: 20px;
+    color:#fff;
+    background-color: #31384A;
+
+}
+#boton:hover{
+    cursor: pointer;
+}
+
+
+
+#cuerpo{
+    background: url("../imagenes/turnos.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::before{
+    
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute ;
+    top: 0px;
+    left:0px;
+    background: linear-gradient(rgb(77, 30, 118), black);
+    opacity: 0.75;
+    z-index: -1;
+   
+}

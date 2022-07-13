@@ -1,0 +1,27 @@
+
+*{ 
+    color: aliceblue;
+}
+h1{
+    border-color: aliceblue;
+}
+#cuerpo{
+    background: url("../imagenes/mancuerna.jfif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::before{
+    
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    background: linear-gradient(rgb(77, 30, 118), black);
+    opacity: 0.75;
+    z-index: -1;
+   
+}

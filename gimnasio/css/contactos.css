@@ -1,0 +1,42 @@
+
+*{
+    color: aliceblue;
+}
+h1{
+    border-color: aliceblue;
+}
+#horarios{
+    float:right;
+    margin-right: 400px;
+    width: 500px;
+    height: 300px;
+
+}
+#contacto{
+    width: 500px;
+    float: left;
+    height: 300px;
+}
+#cuerpo{
+    background: url("../imagenes/mancuernas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+body::before{
+    
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute ;
+    top: 0px;
+    left:0px;
+    background: linear-gradient(rgb(77, 30, 118), black);
+    opacity: 0.75;
+    z-index: -1;
+   
+}

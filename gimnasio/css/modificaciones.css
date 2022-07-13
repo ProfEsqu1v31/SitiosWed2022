@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
+
+*{
+    
+    font-family:'Tiro Telugu', serif;
+    
+}
+
+h1{
+    border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+}
+p{
+    font-size: 20px;
+}
+ul li{
+    font-size: 30px;
+}
+img{
+    width: 450px;
+    height: 300px;
+}
+
+
+.Z img {
+    float: left;
+ }
+#IZ{
+  margin-left: 4px;
+  margin-right: 10px;
+}
+
+ .A img {
+    float: left;
+ }
+ #IA{
+ margin-left: 4px;
+ margin-right: 10px;
+ }
+
+ .B img {
+    float: left;
+ }
+ #IB{
+    margin-left: 4px;
+    margin-right: 10px;
+ }
+
+ .S img {
+    float: left;
+ }
+ #IS{
+    margin-left: 4px;
+    margin-right: 10px;
+ }
+
+ 
+h2{
+    margin:4px;
+    padding:4px;
+}
+
+/*contacto*/
+.caja1{
+    background-color: purple;
+    
+}
+
+/*inicio*/
+img{
+    padding-right: 40px;
+    margin-right: 3px;
+}
+#inicio{
+    margin-left: 70px;
+}
