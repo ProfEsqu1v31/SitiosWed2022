@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+#logo{
+    max-width: 50px;
+    max-height: 50px;
+}
+.logo{
+    color: #fff;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: right;
+}
+body{
+    background-color: rgb(238, 234, 234);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    background-image: url(fondo-nashe.jpg);
+    background-size: 400px;
+}
+h1{
+    text-align: left;
+    background-color: rgb(219, 219, 219);
+    background: opacity(0,9);
+    color: white;
+}
+
+.contenido{
+    display: flex;
+    margin: 60px;
+}
+.secciones{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+#logo{
+    max-width: 50px;
+    max-height: 50px;
+}
+.menu{
+    background-color: rgb(154, 154, 154);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+.img{
+    text-align: right;
+   top: auto;
+}
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.menu_items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.menu_items li:hover{
+    filter: opacity(0.9);
+    transform: scale(1.05);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.texto p{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.texto h2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+}
+.Pichetti h2{
+    font-size: 50px;
+}
+.Fauzi h2{
+    font-size: 50px;
+}
+.Marcos h2{
+    font-size: 50px;
+}
+body{
+    background-color: rgb(203, 203, 203);
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.nosotros{
+    height: 400px;
+    width: 400px;
+}
+.img{
+    width:100px;
+    max-height: 100%;
+}
+img.marcos{
+    width:500px;
+    height: 200px;
+    text-align: center;
+}
+img.marcos{
+    max-width:50%;
+    max-height:50%;
+}
+.img{
+    width:100px;
+    max-height: 100%;
+}
+img.villa{
+    width:500px;
+    height: 150px;
+    text-align: center;
+}
+img.villa{
+    max-width:50%;
+    max-height:50%;
+}
+.img{
+    width:100px;
+    max-height: 100%;
+}
+img.pavon{
+    width:500px;
+    height: 180px;
+    text-align: center;
+}
+img.pavon{
+    max-width:50%;
+    max-height:50%;
+}

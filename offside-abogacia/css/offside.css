@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(163, 224, 193);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    background-image: url(fondo-nashe.jpg);
+    background-size: 400px;
+}
+h1{
+    text-align: left;
+    background-color: rgb(84, 84, 84);
+    color: white;
+}
+h2{
+    text-align: center;
+    background-color: white;
+}
+p{
+    text-align: center;
+}
+
+.galeria-contenedor{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    grid-auto-rows: minmax(200px, auto);
+    grid-auto-flow: dense;
+    justify-content: center;
+}
+
+.galeria-Item img{
+    width: 400px;
+    height: 400px;
+    vertical-align: text-bottom;
+}
+.galeria-Item{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(139, 139, 139);
+    border: solid 1px;
+    border-radius: 4px;
+    /*display: flex;*/
+    grid-template-rows: auto;
+}
+.galeria-Item p{
+    color: whitesmoke;
+}
+.galeria-Item:hover{
+    filter: opacity(1,5);
+    transform: scale(1.05);
+    color: whitesmoke;
+}
+li{
+    display: inline;
+    justify-content: center;
+}
+.menu{
+    background-color: rgb(154, 154, 154);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+.logo{
+    color: #fff;
+    font-size: 35px;
+    padding: 0 80px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.menu_items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.menu_items li:hover{
+    filter: opacity(0.9);
+    transform: scale(1.05);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.puerto{
+    background-color: #fff;
+}
+.video{
+    margin-left: 25%;
+    margin-right: 50%;
+}

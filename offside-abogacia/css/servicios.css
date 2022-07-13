@@ -1,0 +1,66 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(203, 203, 203);
+    background-image: url(fondo-nashe.jpg);
+    background-size: 400px;
+}
+.menu{
+    background-color: rgb(154, 154, 154);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+.logo{
+    color: #fff;
+    font-size: 35px;
+    padding: 0 80px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+.menu_items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.menu_items li:hover{
+    filter: opacity(0.9);
+    transform: scale(1.05);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    background-color: #fff;
+}
+h2{
+    background-color: #fff;
+}
+li{
+    text-decoration: double;
+}
+.cuerpo li{
+    background-color: #fff;
+}
